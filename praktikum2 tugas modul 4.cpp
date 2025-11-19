@@ -9,8 +9,8 @@ int main()
 	cin >> huruf;
 	
 	cout << "\nHasil:" << endl;
-		if (huruf == 'a' | huruf == 'i' | huruf == 'u' | huruf == 'e' | huruf == 'o' |
-			huruf == 'A' | huruf == 'I' | huruf == 'U' | huruf == 'E' | huruf == 'O') {
+		if (huruf == 'a' || huruf == 'i' || huruf == 'u' || huruf == 'e' || huruf == 'o' ||
+			huruf == 'A' || huruf == 'I' || huruf == 'U' || huruf == 'E' || huruf == 'O') {
 			cout << huruf << " adalah Huruf Vokal" << endl;
 	} else {
 			cout << huruf << " adalah Huruf Konsonan" << endl;
@@ -19,3 +19,4 @@ int main()
 }
 
 //time spend 2 hours
+
