@@ -28,6 +28,8 @@ int main()
 		cout << "Nilai mutu:E" << endl;
 		cout << " Perlu belajar  " << endl;
 	}
+	return 0;
 }
 
 	
+
